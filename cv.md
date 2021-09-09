@@ -19,6 +19,15 @@
      return arrSort;
     }
 ```    
+## Work experience:
+    No experience...
+
+## Education and courses:
+    1. HTML Academy
+    2. https://learn.javascript.ru/
+
+## Language:
+    English level - A2
   
 
 
