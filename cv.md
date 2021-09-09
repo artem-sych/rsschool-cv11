@@ -12,6 +12,13 @@
     with adjacent disciplines and having approvals by regulatory authorities, designer supervision, 
     assistance in commissioning, handover of systems to the customer and regulatory authorities. 
 
+## Code example:
+```javascript
+    function arrSortShort(arr) {
+     arrSort = arr.sort((a, b) => a.length - b.length);
+     return arrSort;
+    }
+```    
   
 
 
