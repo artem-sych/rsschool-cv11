@@ -223,22 +223,20 @@ main {
 .column__main__info {
   max-width: 40%;
   min-width: 20%;
-  background-color: rgba(131, 86, 214, 0.38);
+  background-color: rgba(141, 83, 248, 0.384);
 }
 
-.contact__wrapper {
-  display: block;
+.info__block {
+  margin: 10% 0% 2% 0%;
 }
 
-ul {
-  display: block;
-}
 
-.contact__wrapper li {
+
+.contact__block li {
   display: flex;
   align-items: center;
   flex-shrink: 0;
-  padding: 1% 5% 1% 5%;
+  padding: 2% 5% 2% 7%;
   flex-wrap: wrap;
   overflow: hidden;
   /* не дает вывалиться содержимому из блока*/
@@ -278,18 +276,81 @@ a {
   color: black;
 }
 
- a:active {
+a:active {
   font-weight: 600;
   text-decoration-line: underline;
   background-color: rgba(210, 240, 245);
 }
 
- a:link {
+a:link {
   font-weight: 400;
 }
 
- a:visited {
+a:visited {
   font-weight: 400;
   text-decoration-line: underline;
   color: #6B6B6B;
+}
+
+.column__main__info ul {
+  padding: 4% 0 4% 0;
+}
+
+.education__block li {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 2% 5% 2% 7%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  /* не дает вывалиться содержимому из блока*/
+}
+
+.icon__univer {
+  background: url(../images/school_black_24dp.svg) 100% 100% no-repeat;
+  height: 25px;
+  width: 25px;
+  margin-right: 5%;
+}
+
+p {
+  display: block;
+}
+
+.skills__block {
+  display: flex;
+  align-items: left;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  margin-left: 7%;
+}
+
+.skills__block__text li {
+  padding: 20% 7% 0% 0%;
+
+}
+
+.skills__block__point {
+  padding-left: 2%;
+}
+
+.skills__block__point__rating {
+  display: flex;
+}
+
+.icon__point__good {
+  background: url(../images/check_circle_black_24dp.svg) 100% 100% no-repeat;
+  height: 25px;
+  width: 25px;
+}
+
+.icon__point__bad {
+  background: url(../images/remove_circle_outline_black_24dp.svg) 100% 100% no-repeat;
+  height: 25px;
+  width: 25px;
+}
+
+.block__language {
+  padding: 5% 0% 5% 7%;
 }
