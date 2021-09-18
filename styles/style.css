@@ -99,7 +99,7 @@ ul li {
 
 body {
   width: 100%;
-  background-color: #daedeece;
+  background-color: hsla(0, 0%, 95%, 0.808);
   font-family: 'Gilroy';
 }
 
@@ -107,6 +107,10 @@ body {
   max-width: 900px;
   /*width CV*/
   margin: 0 auto;
+}
+
+.wrapper__main {
+  display: inline-flex;
 }
 
 header {
@@ -179,15 +183,27 @@ h3 {
   background-color: rgba(210, 240, 245);
   display: block;
   padding: 3% 0% 3% 15%;
+  word-wrap: break-word;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 160%;
+  color: #554BA7;
+  padding: 7% 0% 3% 10%;
+  word-wrap: break-word;
+
 
 }
+
+
 
 nav {
   padding: 0px 50px;
 }
 
 nav a {
-  font-size: 125%;
+  font-size: 140%;
   padding: 0px 10px;
 }
 
@@ -206,6 +222,17 @@ nav a:visited {
   text-decoration-line: underline;
   color: #6B6B6B;
 }
+
+nav a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+  text-decoration-line: underline;
+  background-color: rgba(210, 240, 245);
+}
+
+
+
+
 
 .line {
   background-color: rgba(131, 86, 214, 0.38);
@@ -353,4 +380,50 @@ p {
 
 .block__language {
   padding: 5% 0% 5% 7%;
+}
+
+.column__main__about {
+  text-align: justify;
+  width: 60%;
+  padding: 0% 5% 0% 5%;
+}
+
+.wrapper__main {
+  width: 100%;
+}
+
+.code {
+  font-size: 60%;
+  font-weight: 500;
+}
+
+.footer {
+  max-width: 900px;
+  margin: 0 auto ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-self: center;
+  background-color: rgba(210, 240, 245);
+  padding: 1% 0% 1% 0%;
+
+
+}
+
+.footer__github {
+  background: url(../images/GitHub-Mark-32px.png) 50% no-repeat;
+  height: 40px;
+  width: 40px;
+  margin: auto 0;
+}
+
+.footer__year {
+  display: block;
+  margin: auto 0;
+}
+
+.footer__rs {
+  background: url(../images/rs_school_js.svg) 50% no-repeat;
+  height: 40px;
+  width: 80px;
 }
