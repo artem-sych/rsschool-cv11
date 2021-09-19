@@ -134,12 +134,13 @@ header {
 
 .avatar__image {
   max-width: 30%;
-  margin: 0;
+  margin: 0 auto;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0px;
+  margin: auto 0;
 }
 
 .avatar__image img {
@@ -154,7 +155,8 @@ header {
 nav ul {
   display: inline-flex;
   align-self: center;
-  justify-content: space-around;;
+  justify-content: space-around;
+  ;
   /*размещение меню по горизонтали*/
   flex-wrap: wrap;
   /*перемещение меню на другую строку*/
@@ -186,7 +188,7 @@ h3 {
   font-size: 140%;
   background-color: rgba(210, 240, 245);
   display: block;
-  padding: 3% 0% 3% 15%;
+  padding: 2% 0% 2% 15%;
   word-wrap: break-word;
 }
 
@@ -392,7 +394,7 @@ p {
 }
 
 .footer {
-  margin: 0 auto ;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -421,4 +423,185 @@ p {
   width: 80px;
 }
 
+@media screen and (max-width: 767px) {
 
+  * {
+    font-size: 15px;
+  }
+
+  .avatar__image img {
+    max-width: 200px;
+    max-height: 210px;
+    box-sizing: border-box;
+  }
+
+  .column__main__info {
+    max-width: 45%;
+    min-width: 25%;
+    background-color: rgba(141, 83, 248, 0.384);
+  }
+
+  .skills__block__text li {
+    padding: 20% 7% 8% 0%;
+
+  }
+
+  .icon__point__good {
+    background: url(../images/check_circle_black_24dp.svg) 50% 50% no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .icon__point__bad {
+    background: url(../images/remove_circle_outline_black_24dp.svg) 50% 50% no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .line {
+    background-color: rgba(131, 86, 214, 0.38);
+    height: 25px;
+    width: auto;
+  }
+
+  .footer__github {
+    background: url(../images/GitHub-Mark-32px.png) 50% no-repeat;
+    height: 32px;
+    width: 32px;
+    margin: auto 0;
+  }
+
+  .footer__rs {
+    background: url(../images/rs_school_js.svg) 50% no-repeat;
+    height: 32px;
+    width: 70px;
+  }
+
+  .footer {
+    padding: 0.1% 0%;
+  }
+
+  h1 {
+    font-weight: 500;
+    padding: 1% 0%;
+  }
+
+  .icon__phone {
+    background: url(../images/1.svg) 50%50% no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 5%;
+  }
+
+  .icon__telegram {
+    background: url(../images/telegram_black_24dp.svg) 50% 50% no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 5%;
+  }
+
+  .icon__email {
+    background: url(../images/email_black_24dp.svg) 50% 50% no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 5%;
+
+  }
+
+  .icon__location {
+    background: url(../images/location_on_black_24dp.svg) 50% 50% no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 5%;
+  }
+
+  .icon__univer {
+    background: url(../images/school_black_24dp.svg) 50% 50% no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 5%;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 420px) {
+
+  * {
+    font-size: 12px;
+  }
+
+  .avatar__image img {
+    max-width: 140px;
+    max-height: 150px;
+    box-sizing: border-box;
+  }
+
+  .column__main__info {
+    max-width: 46%;
+    min-width: 30%;
+    background-color: rgba(141, 83, 248, 0.384);
+  }
+
+  .skills__block__text li {
+    padding: 7% 7% 0% 0%;
+
+  }
+
+  .icon__point__good {
+    background: url(../images/check_circle_black_24dp.svg) 50% 50% no-repeat;
+    height: 11px;
+    width: 11px;
+  }
+
+  .icon__point__bad {
+    background: url(../images/remove_circle_outline_black_24dp.svg) 50% 50% no-repeat;
+    height: 11px;
+    width: 11px;
+  }
+
+  .line {
+    background-color: rgba(131, 86, 214, 0.38);
+    height: 25px;
+    width: auto;
+  }
+
+  .footer__github {
+    background: url(../images/GitHub-Mark-32px.png) 50% no-repeat;
+    height: 32px;
+    width: 32px;
+    margin: auto 0;
+  }
+
+  .footer__rs {
+    background: url(../images/rs_school_js.svg) 50% no-repeat;
+    height: 32px;
+    width: 70px;
+  }
+
+  .footer {
+    padding: 0.1% 0%;
+  }
+
+  h1 {
+    font-weight: 500;
+    padding: 0% 0%;
+    margin: 0% 0%;
+  }
+
+  h2 {
+
+    padding: 0% 0%;
+    margin: 0% 0%;
+  }
+  .avatar__image {
+    max-width: 45%;
+  }
+
+  .column__header {
+    max-width: 55%;
+  }
+
+}
