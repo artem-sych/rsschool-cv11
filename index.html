@@ -8,9 +8,9 @@
   <meta name="description" content="Фонд помощи бездомным животным">
   <link href="styles/style.css" type="text/css" rel="stylesheet" />
   <link href="styles/normalize.css" type="text/css" rel="stylesheet" />
-  <!-- Подключаем стили бутстрапа: -->
-  <!-- Подключаем стили для подсветки кода: -->
-  <link href="script/prettify.css" rel="stylesheet">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
   <title>
     Artem Sych CV 
   </title>
@@ -24,7 +24,7 @@
     <header>
 
       <figure class="avatar__image">
-        <img src="./files/avatar.jpg" alt="foto">
+        <img src="../files/avatar.jpg" alt="foto">
       </figure>
 
       <div class="column__header">
@@ -153,16 +153,18 @@
           </article>
           <article class="about__block">
             <h4 id="code">Code example:</h4>
-            <pre class="prettyprint lang-JS">
-  let array = [
-    [1, 2, 3, ],
-    [1, 2, 3, 4, ],
-  ];     
-  function arrSortShort(arr) {
-    arrSort = arr.sort((a, b) => 
-    a.length - b.length);
-    return arrSort;
-  }
+            <pre>
+              <code class="js">
+let array = [
+  [1, 2, 3, ],
+  [1, 2, 3, 4, ],
+];     
+function arrSortShort(arr) {
+  arrSort = arr.sort((a, b) => 
+  a.length - b.length);
+  return arrSort;
+}
+</code>
             </pre>
           </article>
         </div>
@@ -182,18 +184,7 @@
   </footer>
 </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <!-- Подключаем скрипт бутстрапа: -->
-  <!-- Подключаем скрипт для подсветки кода: -->
-  <script src="script/prettify.js"></script>
-  <!-- Инициализация функции подсветки кода: -->
-  <script type="text/javascript">
-    ! function ($) {
-      $(function () {
-        window.prettyPrint && prettyPrint()
-      })
-    }(window.jQuery)
-  </script>
+
 
 
 

@@ -554,12 +554,14 @@ p {
     background: url('../images/check_circle_black_24dp.svg') 50% 50% no-repeat;
     height: 11px;
     width: 11px;
+    margin-right: 1%;
   }
 
   .icon__point__bad {
     background: url('../images/remove_circle_outline_black_24dp.svg') 50% 50% no-repeat;
     height: 11px;
     width: 11px;
+    margin-right: 1%;
   }
 
   .line {
@@ -603,5 +605,6 @@ p {
   .column__header {
     max-width: 55%;
   }
+
 
 }
