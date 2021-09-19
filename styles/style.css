@@ -265,21 +265,21 @@ main {
 }
 
 .icon__phone {
-  background: url(../images/1.svg) 100% 100% no-repeat;
+  background: url('../images/1.svg') 100% 100% no-repeat;
   height: 25px;
   width: 25px;
   margin-right: 5%;
 }
 
 .icon__telegram {
-  background: url(../images/telegram_black_24dp.svg) 100% 100% no-repeat;
+  background: url('../images/telegram_black_24dp.svg') 100% 100% no-repeat;
   height: 25px;
   width: 25px;
   margin-right: 5%;
 }
 
 .icon__email {
-  background: url(../images/email_black_24dp.svg) 100% 100% no-repeat;
+  background: url('../images/email_black_24dp.svg') 100% 100% no-repeat;
   height: 25px;
   width: 25px;
   margin-right: 5%;
@@ -287,7 +287,7 @@ main {
 }
 
 .icon__location {
-  background: url(../images/location_on_black_24dp.svg) 100% 100% no-repeat;
+  background: url('../images/location_on_black_24dp.svg') 100% 100% no-repeat;
   height: 25px;
   width: 25px;
   margin-right: 5%;
@@ -329,7 +329,7 @@ a:visited {
 }
 
 .icon__univer {
-  background: url(../images/school_black_24dp.svg) 100% 100% no-repeat;
+  background: url('../images/school_black_24dp.svg') 100% 100% no-repeat;
   height: 25px;
   width: 25px;
   margin-right: 5%;
@@ -362,13 +362,13 @@ p {
 }
 
 .icon__point__good {
-  background: url(../images/check_circle_black_24dp.svg) 100% 100% no-repeat;
+  background: url('../images/check_circle_black_24dp.svg') 100% 100% no-repeat;
   height: 25px;
   width: 25px;
 }
 
 .icon__point__bad {
-  background: url(../images/remove_circle_outline_black_24dp.svg) 100% 100% no-repeat;
+  background: url('../images/remove_circle_outline_black_24dp.svg') 100% 100% no-repeat;
   height: 25px;
   width: 25px;
 }
@@ -406,7 +406,7 @@ p {
 }
 
 .footer__github {
-  background: url(../images/GitHub-Mark-32px.png) 50% no-repeat;
+  background: url('../images/GitHub-Mark-32px.png') 50% no-repeat;
   height: 40px;
   width: 40px;
   margin: auto 0;
@@ -418,7 +418,7 @@ p {
 }
 
 .footer__rs {
-  background: url(../images/rs_school_js.svg) 50% no-repeat;
+  background: url('../images/rs_school_js.svg') 50% no-repeat;
   height: 40px;
   width: 80px;
 }
@@ -447,13 +447,13 @@ p {
   }
 
   .icon__point__good {
-    background: url(../images/check_circle_black_24dp.svg) 50% 50% no-repeat;
+    background: url('../images/check_circle_black_24dp.svg') 50% 50% no-repeat;
     height: 20px;
     width: 20px;
   }
 
   .icon__point__bad {
-    background: url(../images/remove_circle_outline_black_24dp.svg) 50% 50% no-repeat;
+    background: url('../images/remove_circle_outline_black_24dp.svg') 50% 50% no-repeat;
     height: 20px;
     width: 20px;
   }
@@ -465,14 +465,14 @@ p {
   }
 
   .footer__github {
-    background: url(../images/GitHub-Mark-32px.png) 50% no-repeat;
+    background: url('../images/GitHub-Mark-32px.png') 50% no-repeat;
     height: 32px;
     width: 32px;
     margin: auto 0;
   }
 
   .footer__rs {
-    background: url(../images/rs_school_js.svg) 50% no-repeat;
+    background: url('../images/rs_school_js.svg') 50% no-repeat;
     height: 32px;
     width: 70px;
   }
@@ -487,21 +487,21 @@ p {
   }
 
   .icon__phone {
-    background: url(../images/1.svg) 50%50% no-repeat;
+    background: url('../images/1.svg') 50%50% no-repeat;
     height: 20px;
     width: 20px;
     margin-right: 5%;
   }
 
   .icon__telegram {
-    background: url(../images/telegram_black_24dp.svg) 50% 50% no-repeat;
+    background: url('../images/telegram_black_24dp.svg') 50% 50% no-repeat;
     height: 20px;
     width: 20px;
     margin-right: 5%;
   }
 
   .icon__email {
-    background: url(../images/email_black_24dp.svg) 50% 50% no-repeat;
+    background: url('../images/email_black_24dp.svg') 50% 50% no-repeat;
     height: 20px;
     width: 20px;
     margin-right: 5%;
@@ -509,14 +509,14 @@ p {
   }
 
   .icon__location {
-    background: url(../images/location_on_black_24dp.svg) 50% 50% no-repeat;
+    background: url('../images/location_on_black_24dp.svg') 50% 50% no-repeat;
     height: 20px;
     width: 20px;
     margin-right: 5%;
   }
 
   .icon__univer {
-    background: url(../images/school_black_24dp.svg) 50% 50% no-repeat;
+    background: url('../images/school_black_24dp.svg') 50% 50% no-repeat;
     height: 20px;
     width: 20px;
     margin-right: 5%;
@@ -551,13 +551,13 @@ p {
   }
 
   .icon__point__good {
-    background: url(../images/check_circle_black_24dp.svg) 50% 50% no-repeat;
+    background: url('../images/check_circle_black_24dp.svg') 50% 50% no-repeat;
     height: 11px;
     width: 11px;
   }
 
   .icon__point__bad {
-    background: url(../images/remove_circle_outline_black_24dp.svg) 50% 50% no-repeat;
+    background: url('../images/remove_circle_outline_black_24dp.svg') 50% 50% no-repeat;
     height: 11px;
     width: 11px;
   }
@@ -569,14 +569,14 @@ p {
   }
 
   .footer__github {
-    background: url(../images/GitHub-Mark-32px.png) 50% no-repeat;
+    background: url('../images/GitHub-Mark-32px.png') 50% no-repeat;
     height: 32px;
     width: 32px;
     margin: auto 0;
   }
 
   .footer__rs {
-    background: url(../images/rs_school_js.svg) 50% no-repeat;
+    background: url('../images/rs_school_js.svg') 50% no-repeat;
     height: 32px;
     width: 70px;
   }
