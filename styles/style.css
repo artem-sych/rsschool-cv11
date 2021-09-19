@@ -1,0 +1,607 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+nav,
+div,
+footer,
+header,
+section,
+ul,
+li {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('../fonts/Gilroy-Thin.woff2') format('woff2'),
+    url('../fonts/Gilroy-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('../fonts/Gilroy-UltraLight.woff2') format('woff2'),
+    url('../fonts/Gilroy-UltraLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/Gilroy-Light.woff2') format('woff2'),
+    url('../fonts/Gilroy-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+    url('../fonts/Gilroy-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+}
+
+
+body {
+  width: 100%;
+  background-color: hsla(0, 0%, 95%, 0.808);
+  font-family: 'Gilroy';
+}
+
+.wrapper {
+  max-width: 1024px;
+  /*width CV*/
+  margin: 0 auto;
+}
+
+.wrapper__main {
+  display: inline-flex;
+}
+
+header {
+  max-height: 20%;
+  min-height: 10%;
+  display: flex;
+  overflow: hidden;
+  background-color: white;
+}
+
+.column__header {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+.avatar__image {
+  max-width: 30%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: auto 0;
+}
+
+.avatar__image img {
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 180px;
+  min-height: 180px;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+nav ul {
+  display: inline-flex;
+  align-self: center;
+  justify-content: space-around;
+  ;
+  /*размещение меню по горизонтали*/
+  flex-wrap: wrap;
+  /*перемещение меню на другую строку*/
+
+}
+
+nav li {
+  align-self: center;
+  flex-shrink: 0;
+  /*фактор сжатия, не дает разрываться строкам*/
+  font-weight: 400;
+  font-size: 65%;
+}
+
+h1 {
+  font-size: 100%;
+  font-weight: 500;
+  padding: 5% 0%;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 180%;
+  color: #554BA7;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 140%;
+  background-color: rgba(210, 240, 245);
+  display: block;
+  padding: 2% 0% 2% 15%;
+  word-wrap: break-word;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 160%;
+  color: #554BA7;
+  padding: 7% 0% 3% 10%;
+  word-wrap: break-word;
+}
+
+
+nav a {
+  font-size: 140%;
+  padding: 0% 10px;
+}
+
+nav a:active {
+  font-weight: 600;
+  text-decoration-line: underline;
+  background-color: rgba(145, 103, 221, 0.38);
+}
+
+nav a:link {
+  font-weight: 400;
+}
+
+nav a:visited {
+  font-weight: 400;
+  text-decoration-line: underline;
+  color: #6B6B6B;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+  text-decoration-line: underline;
+  background-color: rgba(210, 240, 245);
+}
+
+.line {
+  background-color: rgba(131, 86, 214, 0.38);
+  height: 40px;
+  width: auto;
+}
+
+main {
+  max-height: auto;
+  display: flex;
+  overflow: hidden;
+  background-color: white;
+}
+
+.column__main__info {
+  max-width: 40%;
+  min-width: 20%;
+  background-color: rgba(141, 83, 248, 0.384);
+}
+
+.info__block {
+  margin: 10% 0% 2% 0%;
+}
+
+
+
+.contact__block li {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 2% 5% 2% 7%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  /* не дает вывалиться содержимому из блока*/
+}
+
+.icon__phone {
+  background: url(../images/1.svg) 100% 100% no-repeat;
+  height: 25px;
+  width: 25px;
+  margin-right: 5%;
+}
+
+.icon__telegram {
+  background: url(../images/telegram_black_24dp.svg) 100% 100% no-repeat;
+  height: 25px;
+  width: 25px;
+  margin-right: 5%;
+}
+
+.icon__email {
+  background: url(../images/email_black_24dp.svg) 100% 100% no-repeat;
+  height: 25px;
+  width: 25px;
+  margin-right: 5%;
+
+}
+
+.icon__location {
+  background: url(../images/location_on_black_24dp.svg) 100% 100% no-repeat;
+  height: 25px;
+  width: 25px;
+  margin-right: 5%;
+}
+
+a {
+  font-size: 100%;
+  color: black;
+}
+
+a:active {
+  font-weight: 600;
+  text-decoration-line: underline;
+  background-color: rgba(210, 240, 245);
+}
+
+a:link {
+  font-weight: 400;
+}
+
+a:visited {
+  font-weight: 400;
+  text-decoration-line: underline;
+  color: #6B6B6B;
+}
+
+.column__main__info ul {
+  padding: 4% 0 4% 0;
+}
+
+.education__block li {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 2% 5% 2% 7%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  /* не дает вывалиться содержимому из блока*/
+}
+
+.icon__univer {
+  background: url(../images/school_black_24dp.svg) 100% 100% no-repeat;
+  height: 25px;
+  width: 25px;
+  margin-right: 5%;
+}
+
+p {
+  display: block;
+}
+
+.skills__block {
+  display: flex;
+  align-items: left;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  margin-left: 7%;
+}
+
+.skills__block__text li {
+  padding: 20% 7% 0% 0%;
+
+}
+
+.skills__block__point {
+  padding-left: 2%;
+}
+
+.skills__block__point__rating {
+  display: flex;
+}
+
+.icon__point__good {
+  background: url(../images/check_circle_black_24dp.svg) 100% 100% no-repeat;
+  height: 25px;
+  width: 25px;
+}
+
+.icon__point__bad {
+  background: url(../images/remove_circle_outline_black_24dp.svg) 100% 100% no-repeat;
+  height: 25px;
+  width: 25px;
+}
+
+.block__language {
+  padding: 5% 0% 5% 7%;
+}
+
+.column__main__about {
+  text-align: justify;
+  width: 60%;
+  padding: 0% 5% 0% 5%;
+  margin: 0 auto;
+}
+
+.wrapper__main {
+  width: 100%;
+}
+
+.code {
+  font-size: 60%;
+  font-weight: 500;
+}
+
+.footer {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-self: center;
+  background-color: rgba(210, 240, 245);
+  padding: 1% 0% 1% 0%;
+
+
+}
+
+.footer__github {
+  background: url(../images/GitHub-Mark-32px.png) 50% no-repeat;
+  height: 40px;
+  width: 40px;
+  margin: auto 0;
+}
+
+.footer__year {
+  display: block;
+  margin: auto 0;
+}
+
+.footer__rs {
+  background: url(../images/rs_school_js.svg) 50% no-repeat;
+  height: 40px;
+  width: 80px;
+}
+
+@media screen and (max-width: 767px) {
+
+  * {
+    font-size: 15px;
+  }
+
+  .avatar__image img {
+    max-width: 200px;
+    max-height: 210px;
+    box-sizing: border-box;
+  }
+
+  .column__main__info {
+    max-width: 45%;
+    min-width: 25%;
+    background-color: rgba(141, 83, 248, 0.384);
+  }
+
+  .skills__block__text li {
+    padding: 20% 7% 8% 0%;
+
+  }
+
+  .icon__point__good {
+    background: url(../images/check_circle_black_24dp.svg) 50% 50% no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .icon__point__bad {
+    background: url(../images/remove_circle_outline_black_24dp.svg) 50% 50% no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+
+  .line {
+    background-color: rgba(131, 86, 214, 0.38);
+    height: 25px;
+    width: auto;
+  }
+
+  .footer__github {
+    background: url(../images/GitHub-Mark-32px.png) 50% no-repeat;
+    height: 32px;
+    width: 32px;
+    margin: auto 0;
+  }
+
+  .footer__rs {
+    background: url(../images/rs_school_js.svg) 50% no-repeat;
+    height: 32px;
+    width: 70px;
+  }
+
+  .footer {
+    padding: 0.1% 0%;
+  }
+
+  h1 {
+    font-weight: 500;
+    padding: 1% 0%;
+  }
+
+  .icon__phone {
+    background: url(../images/1.svg) 50%50% no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 5%;
+  }
+
+  .icon__telegram {
+    background: url(../images/telegram_black_24dp.svg) 50% 50% no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 5%;
+  }
+
+  .icon__email {
+    background: url(../images/email_black_24dp.svg) 50% 50% no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 5%;
+
+  }
+
+  .icon__location {
+    background: url(../images/location_on_black_24dp.svg) 50% 50% no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 5%;
+  }
+
+  .icon__univer {
+    background: url(../images/school_black_24dp.svg) 50% 50% no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 5%;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 420px) {
+
+  * {
+    font-size: 12px;
+  }
+
+  .avatar__image img {
+    max-width: 140px;
+    max-height: 150px;
+    box-sizing: border-box;
+  }
+
+  .column__main__info {
+    max-width: 46%;
+    min-width: 30%;
+    background-color: rgba(141, 83, 248, 0.384);
+  }
+
+  .skills__block__text li {
+    padding: 7% 7% 0% 0%;
+
+  }
+
+  .icon__point__good {
+    background: url(../images/check_circle_black_24dp.svg) 50% 50% no-repeat;
+    height: 11px;
+    width: 11px;
+  }
+
+  .icon__point__bad {
+    background: url(../images/remove_circle_outline_black_24dp.svg) 50% 50% no-repeat;
+    height: 11px;
+    width: 11px;
+  }
+
+  .line {
+    background-color: rgba(131, 86, 214, 0.38);
+    height: 25px;
+    width: auto;
+  }
+
+  .footer__github {
+    background: url(../images/GitHub-Mark-32px.png) 50% no-repeat;
+    height: 32px;
+    width: 32px;
+    margin: auto 0;
+  }
+
+  .footer__rs {
+    background: url(../images/rs_school_js.svg) 50% no-repeat;
+    height: 32px;
+    width: 70px;
+  }
+
+  .footer {
+    padding: 0.1% 0%;
+  }
+
+  h1 {
+    font-weight: 500;
+    padding: 0% 0%;
+    margin: 0% 0%;
+  }
+
+  h2 {
+
+    padding: 0% 0%;
+    margin: 0% 0%;
+  }
+  .avatar__image {
+    max-width: 45%;
+  }
+
+  .column__header {
+    max-width: 55%;
+  }
+
+}
